@@ -1,0 +1,143 @@
+!!!
+%html
+	%head
+		= render :partial => "home/head"
+	%body
+		.container
+			.row
+				.col-md-12
+					= render :partial => "home/header"
+			.row
+				.col-md-12
+					%ol.breadcrumb.underLine
+						%li 首頁
+						%li 品牌介紹
+			.row
+				.col-md-12
+					.introImg1
+					.about.text-center
+						%img(src = "img/intro04.png" width = "100%")
+						.introTitle 我的午餐好夥伴
+						.introDes
+							小午伴是一個可訂購家常菜的網站，讓在外工作的上班族可以享受到美味的家鄉菜。
+							%br
+							並針對上班族的需求去選擇適合的套餐，享受美味與營養均衡的午餐時光。
+					.introImg2
+			.row.introHelp.text-center
+				.col-md-6.introText.col-sm-6
+					.introTitle SGS衛生認證
+					.introDes 
+						小午伴通過衛生檢驗合格，
+						%br
+						為您的健康把關。
+				.col-md-6.col-sm-6
+					%img.introPic(src = "img/intro05.png")
+			%hr
+			.row.introHelp.text-center
+				.col-md-6.introText.col-sm-6
+					.introTitle 80%以上使用在地食材
+					.introDes 
+						為了給每一位顧客吃到最美味的家常菜
+						%br
+						小午伴堅持使用台灣在地的新鮮食材
+						%br
+						並挑選當季的新鮮蔬菜
+						%br
+						以減少農藥使用量
+						%br
+						減少碳足跡，為美好的地球盡一份心力。
+				.col-md-6.col-sm-6
+					%img(src = "img/intro06.png")
+			%hr
+			.row.introHelp.text-center
+				.col-md-6.introText.col-sm-6
+					.introTitle 新鮮現做好美味
+					.introDes 
+						便當店的飯菜香，但是卻很油膩。
+						%br
+						自己帶便當最省錢，可是卻要重複加熱，
+						%br
+						喪失原有的新鮮與美味
+						%br
+						小午伴的餐點新鮮現做，
+						%br
+						色香味俱全、健康無負擔。
+				.col-md-6.col-sm-6
+					%img(src = "img/intro07.png")
+			%hr
+			.row.introHelp.text-center
+				.col-md-6.introText.col-sm-6
+					.introTitle 外送免排隊
+					.introDes 
+						小午伴可提前訂購也可當天下訂，
+						%br
+						只要提前兩小時訂購就可以吃到美味午餐。
+						%br
+						再也不用浪費休息時間去排隊囉！
+				.col-md-6.col-sm-6
+					%img(src = "img/intro08.png")
+			.introImg3
+			.row.stepHelp
+				.col-md-6
+					.stepImg1
+						%img(src = "img/step09.png")
+				.col-md-6
+					.stepText1
+						.introTitle 步驟一
+						.introDes 
+							將布墊在保鮮盒下方
+							%br
+							將布的一角放在保鮮盒上方
+			.row.stepHelp
+				.col-md-4
+					.stepText1
+						.introTitle 步驟二
+						.introDes 
+							再將剩下的兩側抓好
+							%br
+							稍微轉幾下
+				.col-md-8
+					.stepImg2
+						%img(src = "img/step10.png")
+			.row.stepHelp
+				.col-md-6
+					.stepImg3
+						%img(src = "img/step11.png")
+				.col-md-6
+					.stepText1
+						.introTitle 步驟三
+						.introDes 
+							抓好的兩側穿過對方
+			.row.stepHelp
+				.col-md-6
+					.stepText1
+						.introTitle 步驟四
+						.introDes 
+							用力拉緊打結固定
+				.col-md-6
+					.stepImg4
+						%img(src = "img/step12.png")
+			.row.stepHelp
+				.col-md-6
+					.stepImg5
+						%img(src = "img/step13.png")
+				.col-md-6
+					.stepText1
+						.introTitle 步驟五
+						.introDes 
+							重複前兩者步驟
+							%br
+							再打一個結
+			.row.stepHelp
+				.col-md-6
+					.stepText1
+						.introTitle 步驟六
+						.introDes 
+							完成了！
+				.col-md-6
+					.stepImg6
+						%img(src = "img/step14.png")
+				
+
+					
+= livereload_js if ENV["RACK_ENV"] != "production"

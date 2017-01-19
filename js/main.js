@@ -8,6 +8,12 @@ $(function(){
 			$('.testPic').fadeIn()
 		});
 	});
+	$('.mainbtn3').click(function(){
+		$(this).fadeOut('slow',function(){
+			$('.testPic').hide()
+			$('.ansPic').fadeIn()
+		});
+	});
 	$(document).click(function(e){
 		$('.headerMenu').fadeOut();
 		e.stopPropagation();

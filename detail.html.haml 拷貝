@@ -1,0 +1,46 @@
+!!!
+%html
+	%head
+		= render :partial => "home/head"
+	%body
+		.container
+			.row
+				.col-md-12
+					= render :partial => "home/header"
+			.page
+				.row
+					.col-md-2
+						.menu
+							= render :partial => "home/menu"
+					.col-md-10
+						%ol.breadcrumb
+							%li 首頁
+							%li 組合套餐
+							%li 心心相印
+						.detail
+							.row
+								.col-md-8.text-center
+									%img(src = "img/detail_img.png" width = "80%")
+								.col-md-4
+									.spec 每日限量！
+									.name 麻婆豆腐
+									.des
+										辣椒、豆腐、蔥花
+										%br
+										酸中帶辣
+										%br
+										豆腐香嫩、入口即化
+									.price.space $100 ~ 125
+									.size.space
+										%span.lg 大
+										%span.sm 中
+										%span.xs 小
+									%input.text-center.space(type = "number" value = "0")
+									.others.text-center.space 只剩 10 份
+									%button.add.space 加入購物車
+									%button.buy.space 趕快搶！
+						%hr
+						%img(src = "img/item1.png" width = "100%")
+						%img(src = "img/item1.png" width = "70%")
+						%img(src = "img/pic2.png")
+= livereload_js if ENV["RACK_ENV"] != "production"

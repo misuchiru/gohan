@@ -1,0 +1,119 @@
+!!!
+%html
+	%head
+		= render :partial => "home/head"
+	%body
+		.container
+			.row
+				.col-md-12
+					= render :partial => "home/header"
+			.row
+				.col-md-12
+					.banner.text-center
+						%img(src = "img/每日限量-01.png" width = "70%")
+			.row
+				.col-md-12
+					%ol.breadcrumb
+						%li 首頁
+						%li 組合套餐
+						%li 每日限量
+			.row
+				.col-md-2
+					.menu
+						= render :partial => "home/menu"
+				.col-md-10
+					.content
+						.row
+							.col-md-4.col-sm-4.col-xs-6
+								.item
+									%a.title(href = "detail.html") 麻 婆 豆 腐
+									.img
+										%img(src = "img/food1.png")
+									.size
+										%span.lg 大
+										%span.m 中
+										%span.xs 小
+									.count
+										%span 限量
+										%span.num 10
+										%span 份
+									.price
+										%span $100 ~ 125
+							.col-md-4.col-sm-4.col-xs-6
+								.item
+									%a.title(href = "detail.html") 麻 婆 豆 腐
+									.img
+										%img(src = "img/food2.png")
+									.size
+										%span.lg 大
+										%span.m 中
+										%span.xs 小
+									.count
+										%span 限量
+										%span.num 10
+										%span 份
+									.price
+										%span $100 ~ 125
+							.col-md-4.col-sm-4.col-xs-6
+								.item
+									%a.title(href = "detail.html") 麻 婆 豆 腐
+									.img
+										%img(src = "img/food3.png")
+									.size
+										%span.lg 大
+										%span.m 中
+										%span.xs 小
+									.count
+										%span 限量
+										%span.num 10
+										%span 份
+									.price
+										%span $100 ~ 125
+							.col-md-4.col-sm-4.col-xs-6
+								.item
+									%a.title(href = "detail.html") 麻 婆 豆 腐
+									.img
+										%img(src = "img/food4.png")
+									.size
+										%span.lg 大
+										%span.m 中
+										%span.xs 小
+									.count
+										%span 限量
+										%span.num 10
+										%span 份
+									.price
+										%span $100 ~ 125
+							.col-md-4.col-sm-4.col-xs-6
+								.item
+									%a.title(href = "detail.html") 麻 婆 豆 腐
+									.img
+										%img(src = "img/food5.png")
+									.size
+										%span.lg 大
+										%span.m 中
+										%span.xs 小
+									.count
+										%span 限量
+										%span.num 10
+										%span 份
+									.price
+										%span $100 ~ 125
+							.col-md-4.col-sm-4.col-xs-6
+								.item
+									%a.title(href = "javascript: void(0);") 麻 婆 豆 腐
+									.img
+										%img.filter-gray(src = "img/food1.png")
+										%img.salt-out(src = "img/saltout.png")
+									.size
+										%span.lg 大
+										%span.sm 中
+										%span.xs 小
+									.count
+										%span 限量
+										%span.num 10
+										%span 份
+									.price
+										%span $100 ~ 125
+						%img(src = "img/pic1.png" width = "60%")
+= livereload_js if ENV["RACK_ENV"] != "production"
