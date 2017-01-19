@@ -502,10 +502,11 @@ hr {
 
 /* line 19, ../sass/_main.sass */
 .ansPic {
+  padding-top: 150px;
   display: none;
 }
 
-/* line 21, ../sass/_main.sass */
+/* line 22, ../sass/_main.sass */
 .mainbtn1 {
   width: 119px;
   height: 123px;
@@ -516,7 +517,7 @@ hr {
   left: 13%;
 }
 
-/* line 23, ../sass/_main.sass */
+/* line 24, ../sass/_main.sass */
 .mainbtn2 {
   width: 125px;
   height: 127px;
@@ -527,7 +528,7 @@ hr {
   left: 33%;
 }
 
-/* line 25, ../sass/_main.sass */
+/* line 26, ../sass/_main.sass */
 .mainbtn3 {
   width: 213px;
   height: 75px;
@@ -538,7 +539,7 @@ hr {
   left: 42%;
 }
 
-/* line 27, ../sass/_main.sass */
+/* line 28, ../sass/_main.sass */
 .mainbtn4 {
   width: 69px;
   height: 144px;
@@ -549,7 +550,7 @@ hr {
   left: 63%;
 }
 
-/* line 29, ../sass/_main.sass */
+/* line 30, ../sass/_main.sass */
 .mainbtn5 {
   width: 74px;
   height: 177px;
@@ -560,7 +561,7 @@ hr {
   left: 83%;
 }
 
-/* line 31, ../sass/_main.sass */
+/* line 32, ../sass/_main.sass */
 a.mainbtnSkip {
   width: 69px;
   height: 30px;
@@ -573,12 +574,12 @@ a.mainbtnSkip {
   right: 15%;
 }
 
-/* line 35, ../sass/_main.sass */
+/* line 36, ../sass/_main.sass */
 div[class^='mainbtn']:hover {
   background-position: bottom;
 }
 
-/* line 38, ../sass/_main.sass */
+/* line 39, ../sass/_main.sass */
 a.mainbtnSkip:hover {
   background-position: bottom;
 }
