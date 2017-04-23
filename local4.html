@@ -14,122 +14,13 @@
     <script src='./js/jquery.min.js'></script>
     <script src='./js/bootstrap.min.js'></script>
     <script src='./js/main.js'></script>
-    <link href='./css/styles.css' rel='stylesheet'>
+    <link href='./css/styles.min.css' rel='stylesheet'>
   </head>
   <body>
     <div class='container'>
       <div class='row'>
         <div class='col-md-12'>
-          <div class='header text-center'>
-            <div class='logo'>
-              <a href='index.html'>
-                <img src='img/logo3.png'>
-              </a>
-            </div>
-            <div class='navbar-form navbar-left'>
-              <div class='form-group'>
-                <button class='headerMenuBtn'>
-                  <span class='glyphicon glyphicon-menu-hamburger'></span>
-                </button>
-              </div>
-            </div>
-            <div class='nav navbar-nav navbar-right hidden-xs'>
-              <select class='country inline-block'>
-                <option>Taiwan</option>
-              </select>
-              <div class='price'>NT$TWD</div>
-              <ul class='head-btn'>
-                <li>
-                  <span class='glyphicon glyphicon-search'></span>
-                </li>
-                <li>
-                  <span class='glyphicon glyphicon-user'></span>
-                </li>
-                <li>
-                  <span class='glyphicon glyphicon-heart-empty'></span>
-                  <span class='heart-num'>1</span>
-                </li>
-                <li>
-                  <span class='glyphicon glyphicon-folder-close'></span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class='headerMenu'>
-            <ul>
-              <li>
-                <img src='./img/menuTitle1.png' width='100%'>
-              </li>
-              <li>
-                <a href='javascript: void(0);'>會員註冊</a>
-              </li>
-              <li>
-                <a href='javascript: void(0);'>會員登入</a>
-              </li>
-              <li>
-                <a href='javascript: void(0);'>訂單查詢</a>
-              </li>
-              <li>
-                <a href='javascript: void(0);'>購物車</a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img src='./img/menuTitle2.png' width='100%'>
-              </li>
-              <li>
-                <a href='intro.html'>品牌介紹</a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img src='./img/menuTitle3.png' width='100%'>
-              </li>
-              <li>
-                <a href='heart.html'>心心相印</a>
-              </li>
-              <li>
-                <a href='smart.html'>頭好壯壯</a>
-              </li>
-              <li>
-                <a href='beauty.html'>容光煥發</a>
-              </li>
-              <li>
-                <a href='delicious.html'>睛睛有味</a>
-              </li>
-              <li>
-                <a href='wakeup.html'>瞌睡蟲 get out</a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img src='./img/menuTitle4.png' width='100%'>
-              </li>
-              <li>
-                <a href='goodTaste.html'>樸實好味道</a>
-              </li>
-              <li>
-                <a href='jiming.html'>志閩與春嬌</a>
-              </li>
-              <li>
-                <a href='item.html'>台客撞西施</a>
-              </li>
-              <li>
-                <a href='spicy.html'>湘辣辣妹子</a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img src='./img/menuTitle5.png' width='100%'>
-              </li>
-              <li>
-                <a href='javascript: void(0);'>關於小午伴</a>
-              </li>
-              <li>
-                <a href='javascript: void(0);'>連絡小午伴</a>
-              </li>
-            </ul>
-          </div>
+          Haml::Engine.new(File.read('src/home/_header.html.haml')).render
         </div>
       </div>
       <div class='page'>
@@ -224,4 +115,3 @@
     </div>
   </body>
 </html>
-

@@ -3,11 +3,11 @@ $(function(){
 		$('.headerMenu').fadeToggle();
 		e.stopPropagation();
 	});
-	$('.mainPic').click(function(){
+	/*$('.mainPic').click(function(){
 		$(this).fadeOut('slow',function(){
 			$('.testPic').fadeIn()
 		});
-	});
+	});*/
 	$('.mainbtn3').click(function(){
 		$(this).fadeOut('slow',function(){
 			$('.testPic').hide()
