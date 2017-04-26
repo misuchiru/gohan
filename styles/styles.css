@@ -206,7 +206,7 @@ hr {
 }
 
 .ansPic {
-  padding-top: 150px;
+  padding-top: 80px;
   display: none;
 }
 
@@ -222,8 +222,8 @@ hr {
   background: url(".././img/btn01.png");
   cursor: pointer;
   position: absolute;
-  top: 30%;
-  left: 13%;
+  top: 300px;
+  left: 27%;
 }
 
 .mainbtn2 {
@@ -232,8 +232,8 @@ hr {
   background: url(".././img/btn02.png");
   cursor: pointer;
   position: absolute;
-  top: 20%;
-  left: 33%;
+  top: 290px;
+  left: 39%;
 }
 
 .mainbtn3 {
@@ -242,8 +242,8 @@ hr {
   background: url(".././img/btn03.png");
   cursor: pointer;
   position: absolute;
-  top: 22%;
-  left: 42%;
+  top: 280px;
+  left: 45.5%;
 }
 
 .mainbtn4 {
@@ -252,8 +252,8 @@ hr {
   background: url(".././img/btn04.png");
   cursor: pointer;
   position: absolute;
-  top: 16%;
-  left: 63%;
+  top: 260px;
+  left: 59%;
 }
 
 .mainbtn5 {
@@ -262,8 +262,8 @@ hr {
   background: url(".././img/btn05.png");
   cursor: pointer;
   position: absolute;
-  top: 28%;
-  left: 83%;
+  top: 300px;
+  left: 70%;
 }
 
 a.mainbtnSkip {
@@ -274,11 +274,15 @@ a.mainbtnSkip {
   position: absolute;
   top: initial;
   left: initial;
-  right: 25%;
-  bottom: 5%;
+  position: initial;
+  float: right;
 }
 
 div[class^='mainbtn']:hover {
+  background-position: bottom;
+}
+
+div[class^='mainbtn'].active {
   background-position: bottom;
 }
 
