@@ -535,7 +535,7 @@ hr {
 }
 /* line 19, ../sass/_headerMenu.sass */
 .headerMenu li:not(:first-child) a {
-  color: #9f9fa0;
+  color: #000;
 }
 /* line 21, ../sass/_headerMenu.sass */
 .headerMenu li:not(:first-child) a:hover {
@@ -558,6 +558,7 @@ hr {
 /* line 17, ../sass/_main.sass */
 .testPic {
   display: none;
+  position:relative;
 }
 
 /* line 19, ../sass/_main.sass */
@@ -574,7 +575,7 @@ hr {
   cursor: pointer;
   position: absolute;
   top: 30%;
-  left: 13%;
+  left: 13px;
 }
 
 /* line 24, ../sass/_main.sass */
