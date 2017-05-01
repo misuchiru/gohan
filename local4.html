@@ -20,7 +20,116 @@
     <div class='container'>
       <div class='row'>
         <div class='col-md-12'>
-          Haml::Engine.new(File.read('src/home/_header.html.haml')).render
+          <div class='header text-center'>
+            <div class='logo'>
+              <a href='index.html'>
+                <img src='img/logo3.png'>
+              </a>
+            </div>
+            <div class='navbar-form navbar-left'>
+              <div class='form-group'>
+                <button class='headerMenuBtn'>
+                  <span class='glyphicon glyphicon-menu-hamburger'></span>
+                </button>
+              </div>
+            </div>
+            <div class='nav navbar-nav navbar-right hidden-xs'>
+              <select class='country inline-block'>
+                <option>Taiwan</option>
+              </select>
+              <div class='price'>NT$TWD</div>
+              <ul class='head-btn'>
+                <li>
+                  <span class='glyphicon glyphicon-search'></span>
+                </li>
+                <li>
+                  <span class='glyphicon glyphicon-user'></span>
+                </li>
+                <li>
+                  <span class='glyphicon glyphicon-heart-empty'></span>
+                  <span class='heart-num'>1</span>
+                </li>
+                <li>
+                  <span class='glyphicon glyphicon-folder-close'></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='headerMenu'>
+            <ul>
+              <li>
+                <img src='./img/menuTitle1.png' width='100%'>
+              </li>
+              <li>
+                <a style="color:#DCDCDC;" href='javascript: void(0);'>會員註冊</a>
+              </li>
+              <li>
+                <a style="color:#DCDCDC;" href='javascript: void(0);'>會員登入</a>
+              </li>
+              <li>
+                <a style="color:#DCDCDC;" href='javascript: void(0);'>訂單查詢</a>
+              </li>
+              <li>
+                <a href='buy.html'>購物車</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src='./img/menuTitle2.png' width='100%'>
+              </li>
+              <li>
+                <a href='intro.html'>品牌介紹</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src='./img/menuTitle3.png' width='100%'>
+              </li>
+              <li>
+                <a href='heart.html'>心心相印</a>
+              </li>
+              <li>
+                <a href='smart.html'>頭好壯壯</a>
+              </li>
+              <li>
+                <a href='beauty.html'>容光煥發</a>
+              </li>
+              <li>
+                <a href='delicious.html'>睛睛有味</a>
+              </li>
+              <li>
+                <a href='wakeup.html'>瞌睡蟲 get out</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src='./img/menuTitle4.png' width='100%'>
+              </li>
+              <li>
+                <a href='goodTaste.html'>樸實好味道</a>
+              </li>
+              <li>
+                <a href='jiming.html'>志閩與春嬌</a>
+              </li>
+              <li>
+                <a href='item.html'>台客撞西施</a>
+              </li>
+              <li>
+                <a href='spicy.html'>湘辣辣妹子</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src='./img/menuTitle5.png' width='100%'>
+              </li>
+              <li>
+                <a style="color:#DCDCDC;" href='javascript: void(0);'>關於小午伴</a>
+              </li>
+              <li>
+                <a style="color:#DCDCDC;" href='javascript: void(0);'>連絡小午伴</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class='page'>
@@ -81,15 +190,15 @@
                   <div class='spec'>台客撞西施</div>
                   <div class='name'>煙燻鮭魚</div>
                   <div class='des'>
-                    蛋皮
+                    鮭魚
+                    <br>
+                    甜椒絲
                     <br>
                     蔥花
                     <br>
-                    蘿蔔絲
-                    <br>
-                    些許醬油
+                    胡椒粉
                   </div>
-                  <div class='price space'>$50 ~ 70</div>
+                  <div class='price space'>$80 ~ 100</div>
                   <div class='size space'>
                     <span class='lg'>大</span>
                     <span class='sm'>中</span>
